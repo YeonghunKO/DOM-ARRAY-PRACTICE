@@ -1,0 +1,22 @@
+@mixin flex($dir, $just, $align) {
+  display: flex;
+  @if $dir {
+    flex-direction: $dir;
+  }
+  @if $just {
+    justify-content: $just;
+  }
+
+  @if $align {
+    align-items: $align;
+  }
+}
+
+@mixin space($paddingDir, $margin) {
+  border-bottom: 1px solid #111;
+  #{$paddingDir}: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: $margin;
+}

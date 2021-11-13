@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shopping Basket</title>
+    <link rel="stylesheet" href="./src/assets/styles/css/styles.css" />
+  </head>
+  <body>
+    <h1>Shopping Basket</h1>
+
+    <section class="container">
+      <aside>
+        <button class="show-items">Show Original Items 👁‍🗨</button>
+        <button class="double">Double Price 💰</button>
+        <button class="show-expensive">Show Items over 10,000 💵</button>
+        <button class="sort">Sort by price ↓</button>
+        <button class="calculate">Calculate entire price 📕</button>
+        <button class="clear">Clear All ✨</button>
+      </aside>
+
+      <main id="main">
+        <header>
+          <h2>
+            <strong>Item</strong>
+            <span>Price</span>
+          </h2>
+        </header>
+        <form class="main__input">
+          <input
+            class="main__input__item"
+            type="text"
+            placeholder="아이템을 입력하세요"
+          />
+          <input
+            class="main__input__price"
+            type="number"
+            placeholder="가격을 입력하세요"
+          />
+          <button class="add-btn" type="submit">submit</button>
+        </form>
+        <div class="result"></div>
+      </main>
+    </section>
+    <script src="./src/main.js" type="module"></script>
+  </body>
+</html>

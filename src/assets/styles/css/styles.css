@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #f4f4f4;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+body .container {
+  display: flex;
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 100%;
+  width: 800px;
+}
+body aside {
+  padding: 10px 20px;
+  width: 250px;
+  border-right: 1px solid black;
+}
+body aside button {
+  cursor: pointer;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 14px;
+}
+body #main {
+  flex: 1;
+  padding: 10px 20px;
+}
+body #main .main__input {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+body #main .main__input input {
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+}
+body #main .main__input .add-btn {
+  cursor: pointer;
+  background: white;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-weight: bold;
+}
+body #main h2 {
+  border-bottom: 1px solid #111;
+  padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 0 0 20px;
+}
+body #main h3 {
+  background-color: white;
+  border-bottom: 1px solid #111;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 300;
+  margin: 20px 0 0;
+}
+body #main .result {
+  width: 105%;
+}
+body #main .result .item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+body #main .result .item button {
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  margin-top: -2px;
+}
+
+/*# sourceMappingURL=styles.css.map */
